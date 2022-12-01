@@ -7,5 +7,35 @@
 }
 
 
+/* Generics */
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px 0;
+    color: #e53170;
+
+}
 
 
+
+/* utils */
+
+/* HEADER */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header > p {
+    text-align: center;
+    font-family: 'Fredoka';
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 40px 0;
+}
