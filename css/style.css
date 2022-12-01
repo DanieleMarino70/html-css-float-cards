@@ -6,15 +6,42 @@
     box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+h4{
+    font-weight: 300;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+    
+}
+
 
 /* Generics */
 
+
 body{
     background-color: rgb(255, 255, 255);
+    font-family: 'Fredoka', sans-serif;
+}
+
+a{
+    color: #3ac5f1;
+    display: block;
+    
 }
 
 h1{
-    font-family: 'Fredoka', sans-serif;
+    
     font-size: 3rem;
     text-align: center;
     margin: 20px 0;
@@ -22,20 +49,48 @@ h1{
 
 }
 
+h2, h4{
+    color: white;
+    
 
+}
 
-/* utils */
 
 /* HEADER */
-.container{
-    width: 1200px;
-    margin: 0 auto;
-}
 
 header > p {
     text-align: center;
-    font-family: 'Fredoka';
     font-weight: 400;
     font-size: 1.2rem;
     margin: 40px 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* MAIN */
+
+
+
+.rectangle{
+    float: left;
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
+    background-color: #0f0e17;
+    height: 125px;
+    box-shadow: 1px 0px 3px 0px #000
+    
+    
+}
+
+.rectangle > img{
+    float: left;
+    height: 125px;
+    margin: 0 20px 0 0;
+}
+    
+.spacing{
+    margin: 10px 0;
 }
